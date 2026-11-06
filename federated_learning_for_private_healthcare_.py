@@ -65,7 +65,7 @@ X_train = scaler.fit_transform(X_train)
 
 X_test = scaler.transform(X_test)
 
-# NEURAL NETWORK ARCHITECTURE
+# 2. NEURAL NETWORK ARCHITECTURE
 
 class ClinicalMLP(nn.Module):
     def __init__(self, input_dim):
